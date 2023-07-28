@@ -1,0 +1,6 @@
+    .app__body{
+        display: flex !important;
+        height: 100hv !important;
+        
+        background-color: white;
+    }
