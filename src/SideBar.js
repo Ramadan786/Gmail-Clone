@@ -1,6 +1,6 @@
 import React from "react";
 import "./SideBar.css";
-import Button from "@mui/material/Button";
+import { Button } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import InboxIcon from "@mui/icons-material/Inbox";
 import SidebarOption from "./SidebarOption";
@@ -14,12 +14,20 @@ import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 import DuoOutlinedIcon from "@mui/icons-material/DuoOutlined";
 import { Phone } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
+import { useDispatch } from "react-redux";
+import { openSendMessage, closeSendMessage } from "./features/mailSlice";
 function SideBar() {
+  const dispatch = useDispatch();
+  const handleComposeClick = () => {
+    console.log("just clicked");
+    dispatch(openSendMessage());
+  };
   return (
     <div className="sidebar">
       <Button
         className="sidebar__compose"
         startIcon={<AddIcon fontSize="large" />}
+        onClick={handleComposeClick}
       >
         Compose
       </Button>

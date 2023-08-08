@@ -1,0 +1,122 @@
+[debug] [2023-08-06T19:52:00.150Z] ----------------------------------------------------------------------
+[debug] [2023-08-06T19:52:00.155Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ramzan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-06T19:52:00.157Z] CLI Version:   12.4.6
+[debug] [2023-08-06T19:52:00.157Z] Platform:      win32
+[debug] [2023-08-06T19:52:00.158Z] Node Version:  v16.16.0
+[debug] [2023-08-06T19:52:00.161Z] Time:          Mon Aug 07 2023 00:52:00 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-06T19:52:00.161Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-06T19:52:00.374Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-06T19:52:00.375Z] > authorizing via signed-in user (ramzanforyou786@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ramzan\OneDrive\Desktop\react\gmail-clone-yt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-08-06T19:56:40.699Z] ----------------------------------------------------------------------
+[debug] [2023-08-06T19:56:40.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ramzan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-06T19:56:40.710Z] CLI Version:   12.4.6
+[debug] [2023-08-06T19:56:40.712Z] Platform:      win32
+[debug] [2023-08-06T19:56:40.713Z] Node Version:  v16.16.0
+[debug] [2023-08-06T19:56:40.720Z] Time:          Mon Aug 07 2023 00:56:40 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-06T19:56:40.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-06T19:56:41.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-06T19:56:41.690Z] > authorizing via signed-in user (ramzanforyou786@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ramzan\OneDrive\Desktop\react\gmail-clone-yt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-06T19:59:04.490Z] Using project from CLI flag: clone-yt-7883f
+[debug] [2023-08-06T19:59:04.505Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-yt-7883f [none]
+[debug] [2023-08-06T19:59:05.733Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-yt-7883f 200
+[debug] [2023-08-06T19:59:05.734Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-yt-7883f {"projectId":"clone-yt-7883f","projectNumber":"519086511080","displayName":"gmail-clone-yt","name":"projects/clone-yt-7883f","resources":{"hostingSite":"clone-yt-7883f"},"state":"ACTIVE","etag":"1_df999c47-0f4c-4afc-84e1-8c4f1419bf1c"}
+[info] i  Using project clone-yt-7883f (gmail-clone-yt) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\Users\Ramzan\OneDrive\Desktop\react\gmail-clone-yt 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=802926798&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-08-06T20:11:10.177Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-08-06T20:11:10.178Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-08-06T20:11:11.067Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-08-06T20:11:11.068Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-08-06T20:11:11.090Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-08-06T20:11:12.034Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-08-06T20:11:12.035Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Raja125","id":25274358,"node_id":"MDQ6VXNlcjI1Mjc0MzU4","avatar_url":"https://avatars.githubusercontent.com/u/25274358?v=4","gravatar_id":"","url":"https://api.github.com/users/Raja125","html_url":"https://github.com/Raja125","followers_url":"https://api.github.com/users/Raja125/followers","following_url":"https://api.github.com/users/Raja125/following{/other_user}","gists_url":"https://api.github.com/users/Raja125/gists{/gist_id}","starred_url":"https://api.github.com/users/Raja125/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Raja125/subscriptions","organizations_url":"https://api.github.com/users/Raja125/orgs","repos_url":"https://api.github.com/users/Raja125/repos","events_url":"https://api.github.com/users/Raja125/events{/privacy}","received_events_url":"https://api.github.com/users/Raja125/received_events","type":"User","site_admin":false,"name":"Rana Ramzan","company":null,"blog":"","location":"Pakistan","email":"ranaramzan125@gmail.com","hireable":null,"bio":"I’m always interested in hearing from\r\nformer colleagues,reading,listening or just interesting creative folk, so feel free to contact me if you’d like to connec","twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":1,"created_at":"2017-01-22T02:24:19Z","updated_at":"2021-12-20T11:01:21Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":165,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Raja125 
+[info] 
+[debug] [2023-08-06T20:11:26.975Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-08-06T20:11:27.808Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2023-08-06T20:11:27.808Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-06T20:11:33.923Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2023-08-06T20:11:34.639Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2023-08-06T20:11:34.639Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-06T20:11:40.003Z] >>> [apiv2][query] GET https://api.github.com/repos/Y/actions/secrets/public-key type=owner
+[debug] [2023-08-06T20:11:40.796Z] <<< [apiv2][status] GET https://api.github.com/repos/Y/actions/secrets/public-key 404
+[debug] [2023-08-06T20:11:40.796Z] <<< [apiv2][body] GET https://api.github.com/repos/Y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2023-08-06T20:12:06.277Z] >>> [apiv2][query] GET https://api.github.com/repos/Gmail-clone/actions/secrets/public-key type=owner
+[debug] [2023-08-06T20:12:07.070Z] <<< [apiv2][status] GET https://api.github.com/repos/Gmail-clone/actions/secrets/public-key 404
+[debug] [2023-08-06T20:12:07.071Z] <<< [apiv2][body] GET https://api.github.com/repos/Gmail-clone/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 

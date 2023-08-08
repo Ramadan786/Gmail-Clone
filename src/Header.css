@@ -1,16 +1,32 @@
-.header__left{
-    display: flex;
-    justify-content: left;
-    
-}
-.header__body{
+/* .header__body{
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid whitesmoke;
+    position: sticky;
      
+} */
+
+.header__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    background-color: white; /* Add a background color to differentiate from content */
+    z-index: 100; /* Make sure it's above other content */
+  
+    /* Add additional styling properties if needed */
+  }
+
+.header__left{
+    display: flex;
+    align-items: center;
+    
 }
+
 .header__middle{
     display: flex;
     flex:0.7;

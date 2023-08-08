@@ -1,6 +1,16 @@
-    .app__body{
-        display: flex !important;
-        height: 100hv !important;
-        
-        background-color: white;
+.app__body {
+    display: flex !important;
+    height: 100vh !important;
+    background-color: white;
+    width: 99%;
+  }
+  
+  /* Media Query for Tablets and Small Screens */
+  @media (max-width: 768px) {
+    .app__body {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
     }
+  }
+  
